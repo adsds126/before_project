@@ -51,6 +51,7 @@ public class TodoService {
     public void deleteTodo(int id){
         Todo findTodo = findVerifiedTodo(id);
     //아
+        //깃 푸시 왜안돼
         todoRepository.delete(findTodo);
     }
     public void deleteTodoes(){
