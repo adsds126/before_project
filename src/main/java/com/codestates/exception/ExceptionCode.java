@@ -6,10 +6,10 @@ public enum ExceptionCode {
     MEMBER_NOT_FOUND(404, "Member not found");
 
     @Getter
-    private int status;
+    private final int status;
 
     @Getter
-    private String message;
+    private final String message;
     ExceptionCode(int code, String message) {
         this.status = code;
         this.message = message;

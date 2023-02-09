@@ -3,8 +3,6 @@ package com.codestates.dto;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
-
-
 public class TodoDto {
     @Getter
     @AllArgsConstructor
@@ -24,5 +22,13 @@ public class TodoDto {
         public void setId(int id){
             this.id = id;
         }
+    }
+    @Getter
+    @AllArgsConstructor
+    public static class response{
+        private int id;
+        private String title;
+        private int todo_order;
+        private boolean completed;
     }
 }

@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS TODO (
+    id bigint NOT NULL AUTO_INCREMENT,
+    todo varchar(100) NOT NULL,
+    PRIMARY KEY (id)
+);
