@@ -9,5 +9,5 @@ public class SoloProjectApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SoloProjectApplication.class, args);
 	}
-
+	//dkdddddd
 }
